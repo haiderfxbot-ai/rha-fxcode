@@ -9,17 +9,17 @@ import (
 	"sync"
 	"time"
 
-	"github.com/opencode-ai/opencode/internal/config"
-	"github.com/opencode-ai/opencode/internal/db"
-	"github.com/opencode-ai/opencode/internal/format"
-	"github.com/opencode-ai/opencode/internal/history"
-	"github.com/opencode-ai/opencode/internal/llm/agent"
-	"github.com/opencode-ai/opencode/internal/logging"
-	"github.com/opencode-ai/opencode/internal/lsp"
-	"github.com/opencode-ai/opencode/internal/message"
-	"github.com/opencode-ai/opencode/internal/permission"
-	"github.com/opencode-ai/opencode/internal/session"
-	"github.com/opencode-ai/opencode/internal/tui/theme"
+	"github.com/rha-fxcode/rha-fxcode/internal/config"
+	"github.com/rha-fxcode/rha-fxcode/internal/db"
+	"github.com/rha-fxcode/rha-fxcode/internal/format"
+	"github.com/rha-fxcode/rha-fxcode/internal/history"
+	"github.com/rha-fxcode/rha-fxcode/internal/llm/agent"
+	"github.com/rha-fxcode/rha-fxcode/internal/logging"
+	"github.com/rha-fxcode/rha-fxcode/internal/lsp"
+	"github.com/rha-fxcode/rha-fxcode/internal/message"
+	"github.com/rha-fxcode/rha-fxcode/internal/permission"
+	"github.com/rha-fxcode/rha-fxcode/internal/session"
+	"github.com/rha-fxcode/rha-fxcode/internal/tui/theme"
 )
 
 type App struct {

@@ -1,4 +1,4 @@
-module github.com/opencode-ai/opencode
+module github.com/rha-fxcode/rha-fxcode
 
 go 1.24.0
 

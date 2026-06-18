@@ -4,9 +4,9 @@ import (
 	"github.com/charmbracelet/bubbles/key"
 	tea "github.com/charmbracelet/bubbletea"
 	"github.com/charmbracelet/lipgloss"
-	"github.com/opencode-ai/opencode/internal/tui/layout"
-	"github.com/opencode-ai/opencode/internal/tui/styles"
-	"github.com/opencode-ai/opencode/internal/tui/theme"
+	"github.com/rha-fxcode/rha-fxcode/internal/tui/layout"
+	"github.com/rha-fxcode/rha-fxcode/internal/tui/styles"
+	"github.com/rha-fxcode/rha-fxcode/internal/tui/theme"
 )
 
 type SimpleListItem interface {

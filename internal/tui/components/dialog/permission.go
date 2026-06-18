@@ -8,13 +8,13 @@ import (
 	"github.com/charmbracelet/bubbles/viewport"
 	tea "github.com/charmbracelet/bubbletea"
 	"github.com/charmbracelet/lipgloss"
-	"github.com/opencode-ai/opencode/internal/diff"
-	"github.com/opencode-ai/opencode/internal/llm/tools"
-	"github.com/opencode-ai/opencode/internal/permission"
-	"github.com/opencode-ai/opencode/internal/tui/layout"
-	"github.com/opencode-ai/opencode/internal/tui/styles"
-	"github.com/opencode-ai/opencode/internal/tui/theme"
-	"github.com/opencode-ai/opencode/internal/tui/util"
+	"github.com/rha-fxcode/rha-fxcode/internal/diff"
+	"github.com/rha-fxcode/rha-fxcode/internal/llm/tools"
+	"github.com/rha-fxcode/rha-fxcode/internal/permission"
+	"github.com/rha-fxcode/rha-fxcode/internal/tui/layout"
+	"github.com/rha-fxcode/rha-fxcode/internal/tui/styles"
+	"github.com/rha-fxcode/rha-fxcode/internal/tui/theme"
+	"github.com/rha-fxcode/rha-fxcode/internal/tui/util"
 )
 
 type PermissionAction string

@@ -10,10 +10,10 @@ import (
 	"time"
 
 	"github.com/google/uuid"
-	"github.com/opencode-ai/opencode/internal/config"
-	"github.com/opencode-ai/opencode/internal/llm/tools"
-	"github.com/opencode-ai/opencode/internal/logging"
-	"github.com/opencode-ai/opencode/internal/message"
+	"github.com/rha-fxcode/rha-fxcode/internal/config"
+	"github.com/rha-fxcode/rha-fxcode/internal/llm/tools"
+	"github.com/rha-fxcode/rha-fxcode/internal/logging"
+	"github.com/rha-fxcode/rha-fxcode/internal/message"
 	"google.golang.org/genai"
 )
 

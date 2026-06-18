@@ -1,7 +1,7 @@
 package styles
 
 const (
-	OpenCodeIcon string = "⌬"
+	RhaFxCodeIcon string = "⌬"
 
 	CheckIcon    string = "✓"
 	ErrorIcon    string = "✖"

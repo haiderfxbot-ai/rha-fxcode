@@ -1,8 +1,8 @@
 package main
 
 import (
-	"github.com/opencode-ai/opencode/cmd"
-	"github.com/opencode-ai/opencode/internal/logging"
+	"github.com/rha-fxcode/rha-fxcode/cmd"
+	"github.com/rha-fxcode/rha-fxcode/internal/logging"
 )
 
 func main() {

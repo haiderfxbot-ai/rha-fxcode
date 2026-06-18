@@ -9,42 +9,42 @@ import (
 
 	tea "github.com/charmbracelet/bubbletea"
 	zone "github.com/lrstanley/bubblezone"
-	"github.com/opencode-ai/opencode/internal/app"
-	"github.com/opencode-ai/opencode/internal/config"
-	"github.com/opencode-ai/opencode/internal/db"
-	"github.com/opencode-ai/opencode/internal/format"
-	"github.com/opencode-ai/opencode/internal/llm/agent"
-	"github.com/opencode-ai/opencode/internal/logging"
-	"github.com/opencode-ai/opencode/internal/pubsub"
-	"github.com/opencode-ai/opencode/internal/tui"
-	"github.com/opencode-ai/opencode/internal/version"
+	"github.com/rha-fxcode/rha-fxcode/internal/app"
+	"github.com/rha-fxcode/rha-fxcode/internal/config"
+	"github.com/rha-fxcode/rha-fxcode/internal/db"
+	"github.com/rha-fxcode/rha-fxcode/internal/format"
+	"github.com/rha-fxcode/rha-fxcode/internal/llm/agent"
+	"github.com/rha-fxcode/rha-fxcode/internal/logging"
+	"github.com/rha-fxcode/rha-fxcode/internal/pubsub"
+	"github.com/rha-fxcode/rha-fxcode/internal/tui"
+	"github.com/rha-fxcode/rha-fxcode/internal/version"
 	"github.com/spf13/cobra"
 )
 
 var rootCmd = &cobra.Command{
-	Use:   "opencode",
+	Use:   "rha-fxcode",
 	Short: "Terminal-based AI assistant for software development",
-	Long: `OpenCode is a powerful terminal-based AI assistant that helps with software development tasks.
+	Long: `RHA FX CODE is a powerful terminal-based AI assistant that helps with software development tasks.
 It provides an interactive chat interface with AI capabilities, code analysis, and LSP integration
 to assist developers in writing, debugging, and understanding code directly from the terminal.`,
 	Example: `
   # Run in interactive mode
-  opencode
+  rha-fxcode
 
   # Run with debug logging
-  opencode -d
+  rha-fxcode -d
 
   # Run with debug logging in a specific directory
-  opencode -d -c /path/to/project
+  rha-fxcode -d -c /path/to/project
 
   # Print version
-  opencode -v
+  rha-fxcode -v
 
   # Run a single non-interactive prompt
-  opencode -p "Explain the use of context in Go"
+  rha-fxcode -p "Explain the use of context in Go"
 
   # Run a single non-interactive prompt with JSON output format
-  opencode -p "Explain the use of context in Go" -f json
+  rha-fxcode -p "Explain the use of context in Go" -f json
   `,
 	RunE: func(cmd *cobra.Command, args []string) error {
 		// If the help flag is set, show the help message

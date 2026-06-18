@@ -7,16 +7,16 @@ import (
 
 	tea "github.com/charmbracelet/bubbletea"
 	"github.com/charmbracelet/lipgloss"
-	"github.com/opencode-ai/opencode/internal/config"
-	"github.com/opencode-ai/opencode/internal/llm/models"
-	"github.com/opencode-ai/opencode/internal/lsp"
-	"github.com/opencode-ai/opencode/internal/lsp/protocol"
-	"github.com/opencode-ai/opencode/internal/pubsub"
-	"github.com/opencode-ai/opencode/internal/session"
-	"github.com/opencode-ai/opencode/internal/tui/components/chat"
-	"github.com/opencode-ai/opencode/internal/tui/styles"
-	"github.com/opencode-ai/opencode/internal/tui/theme"
-	"github.com/opencode-ai/opencode/internal/tui/util"
+	"github.com/rha-fxcode/rha-fxcode/internal/config"
+	"github.com/rha-fxcode/rha-fxcode/internal/llm/models"
+	"github.com/rha-fxcode/rha-fxcode/internal/lsp"
+	"github.com/rha-fxcode/rha-fxcode/internal/lsp/protocol"
+	"github.com/rha-fxcode/rha-fxcode/internal/pubsub"
+	"github.com/rha-fxcode/rha-fxcode/internal/session"
+	"github.com/rha-fxcode/rha-fxcode/internal/tui/components/chat"
+	"github.com/rha-fxcode/rha-fxcode/internal/tui/styles"
+	"github.com/rha-fxcode/rha-fxcode/internal/tui/theme"
+	"github.com/rha-fxcode/rha-fxcode/internal/tui/util"
 )
 
 type StatusCmp interface {

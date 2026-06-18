@@ -4,11 +4,11 @@ import (
 	"github.com/charmbracelet/bubbles/key"
 	tea "github.com/charmbracelet/bubbletea"
 	"github.com/charmbracelet/lipgloss"
-	"github.com/opencode-ai/opencode/internal/session"
-	"github.com/opencode-ai/opencode/internal/tui/layout"
-	"github.com/opencode-ai/opencode/internal/tui/styles"
-	"github.com/opencode-ai/opencode/internal/tui/theme"
-	"github.com/opencode-ai/opencode/internal/tui/util"
+	"github.com/rha-fxcode/rha-fxcode/internal/session"
+	"github.com/rha-fxcode/rha-fxcode/internal/tui/layout"
+	"github.com/rha-fxcode/rha-fxcode/internal/tui/styles"
+	"github.com/rha-fxcode/rha-fxcode/internal/tui/theme"
+	"github.com/rha-fxcode/rha-fxcode/internal/tui/util"
 )
 
 // SessionSelectedMsg is sent when a session is selected

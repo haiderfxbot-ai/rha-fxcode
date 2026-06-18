@@ -8,16 +8,16 @@ import (
 	"sync"
 	"time"
 
-	"github.com/opencode-ai/opencode/internal/config"
-	"github.com/opencode-ai/opencode/internal/llm/models"
-	"github.com/opencode-ai/opencode/internal/llm/prompt"
-	"github.com/opencode-ai/opencode/internal/llm/provider"
-	"github.com/opencode-ai/opencode/internal/llm/tools"
-	"github.com/opencode-ai/opencode/internal/logging"
-	"github.com/opencode-ai/opencode/internal/message"
-	"github.com/opencode-ai/opencode/internal/permission"
-	"github.com/opencode-ai/opencode/internal/pubsub"
-	"github.com/opencode-ai/opencode/internal/session"
+	"github.com/rha-fxcode/rha-fxcode/internal/config"
+	"github.com/rha-fxcode/rha-fxcode/internal/llm/models"
+	"github.com/rha-fxcode/rha-fxcode/internal/llm/prompt"
+	"github.com/rha-fxcode/rha-fxcode/internal/llm/provider"
+	"github.com/rha-fxcode/rha-fxcode/internal/llm/tools"
+	"github.com/rha-fxcode/rha-fxcode/internal/logging"
+	"github.com/rha-fxcode/rha-fxcode/internal/message"
+	"github.com/rha-fxcode/rha-fxcode/internal/permission"
+	"github.com/rha-fxcode/rha-fxcode/internal/pubsub"
+	"github.com/rha-fxcode/rha-fxcode/internal/session"
 )
 
 // Common errors
